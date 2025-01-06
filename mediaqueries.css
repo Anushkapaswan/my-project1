@@ -1,0 +1,78 @@
+@media screen and (max-width:991px){
+    h2{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size:1.2rem;
+    }
+    feature-card{
+        width:calc(50%-10px);
+        height:180px;
+    }
+    example-area{
+        gap:10px;
+    }
+    .cta-section{
+        padding:80px;
+
+    }
+}
+@media screen and (max-width:768px){
+    .header-section{
+        flex-direction:column-reverse;
+    }
+    .para {
+        width:90vh;
+        text-align:center;
+    }
+    .primary-button{
+        width:100%;
+        
+    }
+    h1{
+        font-size:2rem;
+    }
+    .feature-card{
+        min-width:calc(50%-10px);
+
+    }
+    .big-feature-container{
+        flex-direction:column;
+    }
+    #middle-feature{
+        flex-direction:column;
+    }
+    .example-section{
+        /* padding:20px; */
+        width:calc(50%-10px);
+    }
+    .footer-section-container{
+        flex-direction:column;
+        gap:40px;
+    }
+}
+/* for mobile phone */
+@media screen and (max-width:479){
+    :root{
+    --padding-inline-section:10px;
+    }
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size:1.3rem;
+    }
+    p{
+        font-size:1rem;
+    }
+    .feature-card{
+    min-width:100%;
+
+    }
+    .example-area{
+    width:100%;
+    }
+}
